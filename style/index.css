@@ -1,0 +1,203 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    color: white;
+    
+}
+
+
+section#home{
+    display: flex;
+    width: 100%;
+    height: 30rem;
+    background-image: url(/img/Sem\ título-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+div#container{
+    margin-top: 5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+div#apresentacao{
+    width: 50%;
+    height: 20rem;
+    margin-left: 1rem;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    transition: 0.5s;
+    margin-top: 2rem;
+    
+}
+
+
+div#apresentacao h1{
+    font-size: 5vw;
+}
+
+div#apresentacao p{
+    margin-top: -0.4rem;
+    font-size: 3vw;
+    text-align: right;
+    color: #65b307;
+    transition: 0.5s;
+}
+
+div#apresentacao p:hover{
+    text-shadow: 0px 0px 5px #66b30798;
+    transition: 0.5s;
+}
+
+div#sobre-mim button{
+    padding: 0.8rem 1.5rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 2rem;
+    background-color: rgba(255, 255, 255, 0.158);
+
+}
+
+div#foto img{
+    border-radius: 100%;
+    width: 20rem;
+    height: 20rem;
+    box-shadow: 1px 1px 50px #66b30779;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #65b307;
+    transition: 0.5s;
+}
+
+div#foto img:hover{
+    box-shadow: 1px 1px 50px #66b307be;
+    transition: 0.5s;
+}
+
+section#skills{
+color: black;
+text-align: center;
+background-color: black;
+
+
+}
+
+#skills h1{
+    font-size: 5rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 1rem;
+    color: #65b307;
+    border-bottom-style: solid ;
+    border-width: 0.1rem;
+    width: 50%;
+    margin: auto;
+    padding-top: 2rem;
+    transition: 0.5s;
+}
+
+#skills h1:hover{
+    text-shadow: 0px 0px 20px #65b307;
+    transition: 0.5s;
+}
+#skills img{
+   margin-top: 2em;
+   padding: 2rem 8rem;
+   margin-bottom: 10px;
+
+   
+}
+div#titulo-projeto{
+    width: 100%;
+    padding-top: 2rem;
+    height: 7.5rem;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.900);  
+}
+div#titulo-projeto:hover{
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.575);
+   
+
+}
+h1#titulo-projeto:hover{
+    border-width: 2px;
+}
+h1#titulo-projeto {
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    width: 50%;
+    border-color: #65b307;
+    border-width: 0.1px;
+    box-shadow: 0px 5px 5px #66b30765;
+    border-radius: 2rem;
+    position: absolute;
+    transform: translate(50%, 0%);   
+}
+
+section#projetos{
+    background-color: rgba(0, 0, 0, 0.900);
+    display: flex;
+    height: 25rem;
+
+}
+
+div#projeto{
+    width: 30%;
+    height: 19rem;
+    display: block;
+    text-align: center;
+    border-style: solid;
+    border-width: 0.1px;
+    border-radius: 2rem;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 2rem;
+    border-color: #65b307;
+    margin-bottom: 4rem;
+    
+}
+section#projetos h1{
+    font-size: 3rem;
+    
+}
+section#projetos img{
+    width: 100%;
+    height: 13rem;
+}
+
+section#sobre-mim{
+    background-color: black;
+    width: 100%;
+    height: 30rem;
+    padding: 2rem 0rem;
+}
+
+#sobre-mim article{
+    border-style: solid;
+    width: 90%;
+    margin: auto;
+    border-radius: 2rem;
+    border-width: 1px;
+    background-color: rgba(255, 255, 255, 0.123);
+    
+}
+#sobre-mim h1{
+    font-size: 3.5rem;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    color: #65b307;
+    width: 95%;
+
+}
+#sobre-mim p{
+    text-align: justify;
+    width: 95%;
+    padding: 0rem 2rem 2rem 2rem;
+    margin: auto;
+    font-size: 2rem;
+   
+}
